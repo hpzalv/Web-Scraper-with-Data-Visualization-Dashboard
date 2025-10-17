@@ -29,7 +29,6 @@ This project is a Python-based web scraper that collects book data (title, price
 2. Create a virtual environment (optional but recommended):
 bashpython -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
 3. Install dependencies:
 bashpip install -r requirements.txt
 
@@ -54,7 +53,6 @@ streamlit==1.25.0
 plotly==5.15.0
 
 Ethical Scraping
-
 The scraper includes delays (1 second per book, 2 seconds per page) to respect the server's resources.
 It adheres to the website's robots.txt (checked at http://books.toscrape.com/robots.txt).
 For production use, always verify the target site's terms of service.
